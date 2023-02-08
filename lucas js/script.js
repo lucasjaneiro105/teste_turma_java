@@ -178,7 +178,7 @@ else {
 };*/
 
 
-var competência = prompt('O aluno antigiu a competência, sim ou não?')
+/*var competência = prompt('O aluno antigiu a competência, sim ou não?')
 var frenquência = prompt('Informe a procentagem de frequência (%)');
 
 if(
@@ -203,7 +203,7 @@ else if( nota >= 7.00 && nota <= 10.00) {
 else{
 
     document.write('nota invalída')
-};
+};*/
 
 /*var cor = prompt('Informe sua cor favorita'); 
 switch(cor){
@@ -224,7 +224,7 @@ case 'azul':
 };*/
 
 
-var mes = prompt('digite um numero de 1 a 12 para saber o mês do numero')
+/*var mes = prompt('digite um numero de 1 a 12 para saber o mês do numero')
 switch(mes){
 
     case '1':
@@ -296,20 +296,34 @@ var notaAluno = prompt('Qual o conceito do aluno?')
 
       default: 
          document.write('conceito invalido') 
- };
+ };*/
+
+
+/*var usuarioIdade = 20;
+
+if(usuarioIdade >= 18){
+
+    console.log('Usuario maior de idade');
+} else {
+      console.log('Usuario menor de idade');
+
+};*/
+
+
+// condição ? true : false; 
+
+// var usuarioIdade = 20;
+// var mensagem = usuarioIdade >= 18 ? 'Usuario maior de idade' : 'Usuario menor de idade';
+// console.log(mensagem);
 
 
 
 
 
+var gamer = 800; 
+var pontuaçao = gamer >= 1000 ? 'Usuario VIP' : 'Aumente sua pontuação para se tornar um Usuario VIP';
+console.log(pontuaçao);
 
-
-
-
-
-
-
-
-
-
-
+var altura = 0.96; 
+var alturaPermitida = altura >= 1.20 ? 'Acesso Liberado' : 'Acesse apenas para crianças com mais de 1.20 metros de altura';
+console.log(alturaPermitida);
