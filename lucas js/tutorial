@@ -6,9 +6,10 @@
 // document.write('<br>') = colocar io texto em cada linha no codigo js 
 // <script src="script.js"></script> = usa esse comando para consegue executar a funçao js na pagina html --> 
 // const = variavel constante na qual nao deixa renomear, caso tente mudar o arquivo vai dá erro
-
-
-
+// ctrl + alt = n = abre o console log
+// all + shift + a = comenta no codigo 
+// atalho log = console.log
+// var mensagem = exemplo ? true : false
 
 
 

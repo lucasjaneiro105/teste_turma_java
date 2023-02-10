@@ -320,10 +320,86 @@ if(usuarioIdade >= 18){
 
 
 
-var gamer = 800; 
-var pontuaçao = gamer >= 1000 ? 'Usuario VIP' : 'Aumente sua pontuação para se tornar um Usuario VIP';
-console.log(pontuaçao);
+// var gamer = 800; 
+// var pontuaçao = gamer >= 1000 ? 'Usuario VIP' : 'Aumente sua pontuação para se tornar um Usuario VIP';
+// console.log(pontuaçao); 
 
-var altura = 0.96; 
+/* var altura = 0.96; 
 var alturaPermitida = altura >= 1.20 ? 'Acesso Liberado' : 'Acesse apenas para crianças com mais de 1.20 metros de altura';
-console.log(alturaPermitida);
+console.log(alturaPermitida);  */
+
+/* var nMastigadas = 1;
+while (nMastigadas <= 20) {
+
+    console.log(`O numero de mastigadas ${nMastigadas} `);
+    nMastigadas+=3;
+}
+ console.log('Finalmente engoliu'); */
+
+ /*for(var xMastigadas = 1; xMastigadas <= 20; xMastigadas++){
+    console.log("Mastigadas de numero" + xMastigadas +  "realizadas");
+ };*/
+
+
+
+
+/*var contagem = 10; 
+ while (contagem >= 0) {
+    console.log(`Numero ${contagem}`);
+    contagem--;
+ }
+ console.log('acabou');*/
+
+
+/*for(var contagem = 10; contagem >= 0; contagem--){
+ console.log("contagem" + contagem + "realizada" );
+};*/
+
+
+
+/*var contagemUsuario = prompt('Digite um numero');
+while (contagemUsuario) {
+    document.write(`Numero ${contagemUsuario} foi`);
+    document.write('<br>')
+    contagemUsuario--;
+    
+}
+document.write('A contagem acabou');*/
+
+
+
+
+
+/*var i = 0;
+while(i < 11){
+    console.log('2 x ' + i + ' = ' + 2*i);
+    i++;
+};*/
+
+
+/*for(var i = 0; i < 11; i++) {
+
+    console.log('2 x ' + i + ' = ' + 2*i);
+};*/
+
+
+/*function operaçao(numero1, numero2) {
+    return numero1 + numero2 
+}
+
+console.log(operaçao(1, 2));*/
+
+
+/* function maior(n1, n2) {
+    return Math.max(n1, n2);
+   
+}
+
+console.log(maior(19, 18));*/
+
+
+var nomes = ['Lucas', 'Leonardo', 'Breno', 'Caue', 'Rafael', 'Jean', 'Gabriel', 'Gustavo', 'Julio', 'Davi'];
+nomes.push('Bidu', 'Cadu', 'Dolly');
+nomes.pop('Dolly')
+console.log(nomes);
+
